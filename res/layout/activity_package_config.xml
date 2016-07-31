@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.pcs.plsqlcodesample.ActPackageConfig" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Package Configuration"
+                android:textColor="#153663"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/chkPrimaryKey"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Primary Key" />
+            <CheckBox
+                android:id="@+id/chkForeignKey"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Foreign Key" />
+            <CheckBox
+                android:id="@+id/chkCheckConstraint"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="CheckBox" />
+            <CheckBox
+                android:id="@+id/chkUniqueConstraint"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Unique" />
+            <CheckBox
+                android:id="@+id/chkDefaultConstraint"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Default" />
+            <CheckBox
+                android:id="@+id/chkNotNullConstraint"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Not Null" />
+            <CheckBox
+                android:id="@+id/chkEncryptConstraint"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Encrypt" />
+            <CheckBox
+                android:id="@+id/chkGeneratedAlwaysConstraint"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Generated Always" />
+            <CheckBox
+                android:id="@+id/chkComment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Commnet" />
+            <CheckBox
+                android:id="@+id/chkTableSpace"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Table Space" />
+            <CheckBox
+                android:id="@+id/chkStorage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Storage" />
+        </LinearLayout>
+    </ScrollView>
+    
+    <include layout="@layout/backexitgenerate" />
+
+</RelativeLayout>

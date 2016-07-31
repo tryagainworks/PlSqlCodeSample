@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+<language name="holder for library settings">
+
+</language>
+<language name="Assembly">
+
+</language>
+<language name="GNU C++">
+<includepath>/media/linuxmintuser02/Development/MyApps/Android/github/calcsimple/jni/include/</includepath>
+<includepath>/media/linuxmintuser02/Linux-Support-2/MandatoryPgms/Android_Linux/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include</includepath>
+<includepath>/media/linuxmintuser02/Linux-Support-2/MandatoryPgms/Android_Linux/android-ndk-r10d/sources/cxx-stl/gnu-libstdc++/4.9/include</includepath>
+<includepath>/media/linuxmintuser02/Linux-Support-2/MandatoryPgms/Android_Linux/android-ndk-r10d/toolchains/x86-4.9/prebuilt/linux-x86_64/i686-linux-android/lib/</includepath>
+
+</language>
+<language name="GNU C">
+
+</language>
+</section>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+<language name="holder for library settings">
+
+</language>
+<language name="Assembly">
+
+</language>
+<language name="GNU C++">
+
+</language>
+<language name="GNU C">
+
+</language>
+</section>
+</cdtprojectproperties>
